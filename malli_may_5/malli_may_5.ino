@@ -16,7 +16,7 @@ void setup() {
 
 // the loop function runs over and over again until power down or reset
 void loop() {
-    for (int i = 0; i < 8; i++)
+    for (int i = 2; i < 8; i++)
     {
         digitalWrite(i, HIGH);
         delay(timer);
